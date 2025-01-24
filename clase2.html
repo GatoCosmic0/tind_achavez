@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>Uso de tablas</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Matrícula</th>
+                <th colspan="2">Nombre completo</th>
+                <th>Calificación</th>
+            </tr>
+        </thead><!--AQUI TERMINA EL ENCABEZADO -->
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>Benjamin</td>
+                <td>Barona</td>
+                <td>9.9</td>
+            </tr>
+            <tr>
+                <td>67890</td>
+                <td>Luis</td>
+                <td>Lagos Camacho</td>
+                <td>5.9</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr />
+    <h1>Formularios</h1>
+    <form method="post" action="index.html">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" name="nombre" placeholder="Ingrese el nombre" id="nombre" required/>
+        <label>Fecha de nacimiento</label>
+        <input type="date" name="fecha de nacimiento" placeholder="dd/mm/aaa" />
+        <label>Carrera</label>
+        <select name="carreras">
+            <option value="">Seleccione una carrera:</option>
+            <option value="1">Ingeniería en TIND</option>
+            <option selected>Ingeniería Industrial</option>
+            <option>Aquitectura</option>
+        </select>
+        <input type="checkbox" name="termino" checked/> Acepto las políticas de privacidad
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+
+</html>
