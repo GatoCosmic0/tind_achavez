@@ -5,11 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/estilo.css" />
 </head>
 
 <body>
     <header>
+        <div id="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree-fill"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777z" />
+            </svg>
+            <span>Ingeniería Ambiental</span> <!--COLOCA UN ELEMENTO AL LADO DEL QUE ACABA DE TERMINAR-->
+        </div>
         <nav>
             <a href="#">Inicio</a>
             <a href="#">Plan de estudios</a>
@@ -17,6 +25,61 @@
             <a href="#">Contanco</a>
         </nav>
     </header>
+    <section id="slide">
+        <h1>Bienvenidos a la carrera más innovadora...</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni nisi aperiam, sunt deleniti atque sint
+            totam numquam quis blanditiis recusandae voluptatum facere soluta est qui odio ullam laborum eaque!</p>
+    </section>
+    <main>
+        <section>
+            <h1>Ingeniería Ambiental</h1>
+            <img src="images/ammbiental2.jpg" alt="" class="imagen-derecha">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tempora obcaecati at nisi officiis
+                asperiores doloribus facilis sint velit suscipit. Voluptas sunt saepe error totam quis dolorem quaerat
+                perferendis ut?</p>
+            <div id="botones">
+                <div class="boton">Plan de estudio</div>
+            </div>
+        </section>
+        <section id="galeria">
+            <h1>Conoce nuestras instalaciones</h1>
+            <img src="images/b3.jpg" alt="" class="foto-galeria">
+            <img src="images/b4.jpg" alt="" class="foto-galeria">
+            <img src="images/b5.jpg" alt="" class="foto-galeria">
+            <img src="images/b6.jpg" alt="" class="foto-galeria">
+        </section>
+        <section id="contacto">
+            <div class="formulario">
+                <h1>Únete a nuestra carrera!</h1>
+                <form>
+                    <input type="text" placeholder="Ingresa tu nombre" />
+                    <input type="text" placeholder="Ingresa tu correo electrónico" />
+                    <textarea></textarea>
+                    <button>Enviar datos</button>
+                </form>
+            </div>
+            <div class="mapa"></div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14893.74228335032!2d-86.84869135!3d21.05525865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e81de50fe2ad5%3A0x258582dbd189eca2!2sUniversidad%20An%C3%A1huac%20Canc%C3%BAn!5e0!3m2!1ses-419!2smx!4v1738367067814!5m2!1ses-419!2smx"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados © Andrés</p>
+        <div class="redes-sociales">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android"
+                viewBox="0 0 16 16">
+                <path
+                    d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.9 8.9 0 0 1 8 5a8.9 8.9 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2m6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+            </svg>
+        </div>
+    </footer>
 </body>
 
 </html>

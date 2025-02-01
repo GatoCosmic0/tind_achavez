@@ -1,31 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body{
+
+* {
+    margin: auto;
+}
+
+body {
     font-family: "Lato", serif;
 }
-header{
-    background-color: #ba60ff;  /*COLOR DE FONDO DE LA ETIQUETA */
-    width: 80%; /*ANCHO DE LA ETIQUETA (SE REDIMENCIONA CON PORCENTAJE)*/
-    margin: auto;   /*CENTRADO*/
-    height:  250px; /*ALTURA*/
-    padding: 30px 10px 20px 50px;   /*ARRIBA DERECHA ABAJO IZQUIERDA*/  
-} 
 
-nav{
-    float: right;
-    width: 70%;
-    border: solid 1px #000000; /*TIPO TAMAÑO COLOR*/
-    padding: 20px;
+header {
+    background-color: #ba60ff;
+    /*COLOR DE FONDO DE LA ETIQUETA */
+    width: 80%;
+    /*ANCHO DE LA ETIQUETA (SE REDIMENCIONA CON PORCENTAJE)*/
+    margin: auto;
+    /*CENTRADO*/
+    height: 80px;
+    /*ALTURA*/
+    padding: 30px 10px 20px 50px;
+    /*ARRIBA DERECHA ABAJO IZQUIERDA*/
 }
 
-a{
+#logo {
+    /*EL ID SE IDENTIFICA CON #*/
+    width: 30%;
+    float: left;
+    padding: 20px;
+
+}
+
+nav {
+    float: right;
+    width: 50%;
+    border: none;
+    /*solid 1px #000000; /*TIPO TAMAÑO COLOR*/
+    padding: 10px;
+    color: #ffffff
+}
+
+a {
     color: #ffffff;
     text-decoration: none;
     float: left;
     padding: 10px;
-    text-transform: uppercase; /*PONE EL TEXTO EN MAYUSCULA*/
+    text-transform: uppercase;
+    /*PONE EL TEXTO EN MAYUSCULA*/
 }
 
-a:hover{
-    background-color: #fcaaaa;
+a:hover {
+    background-color: red;
     color: white;
+}
+
+#slide {
+    background-image: url("../images/ambiental.jpg");
+    height: 250px;
+    background-position: center;
+    /*background-size: cover;*/
+    text-align: center;
+}
+
+#slide h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: #111111 1px 0 5px;
+}
+
+#slide p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+main section {
+    width: 80%;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+main section h1 {
+    font-size: 40px;
+    color: red;
+    padding-bottom: 20px;
+}
+
+.imagen-derecha {
+    float: right;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.boton {
+    width: 40%;
+    background: #d86121;
+    color: #ffffff;
+    font-size: 30px;
+    vertical-align: middle;
+    border-radius: 20px;
+    text-align: center;
+    float: left;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+#galeria {
+    overflow: hidden;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-top: solid 1px #000000;
+}
+
+.foto-galeria {
+    width: 48%;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+}
+#contacto {
+    display: flex;
+}
+.formulario input {
+    width: 100%;
+    padding: 5px;
+    border: solid 1px orangered;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+.redes-sociales {
+    color: pink;
+    padding: 5px;
 }
