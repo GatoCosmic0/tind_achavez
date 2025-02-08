@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    background-color: #ba60ff;
+    background-color: #fd4800;
     /*COLOR DE FONDO DE LA ETIQUETA */
-    width: 80%;
+    width: 100%;
     /*ANCHO DE LA ETIQUETA (SE REDIMENCIONA CON PORCENTAJE)*/
     margin: auto;
     /*CENTRADO*/
@@ -48,15 +48,16 @@ a {
 }
 
 a:hover {
-    background-color: red;
+    background-color: black;
     color: white;
 }
 
 #slide {
     background-image: url("../images/ambiental.jpg");
-    height: 250px;
+    height: 300px;
+    width: 100%;
     background-position: center;
-    /*background-size: cover;*/
+    background-size: cover;
     text-align: center;
 }
 
@@ -71,6 +72,7 @@ a:hover {
 #slide p {
     font-size: 18px;
     color: #ffffff;
+    text-shadow: #111111 1px 0 5px;
 }
 
 main section {
@@ -97,7 +99,7 @@ main section h1 {
 
 .boton {
     width: 40%;
-    background: #d86121;
+    background: #fd4800;
     color: #ffffff;
     font-size: 30px;
     vertical-align: middle;
